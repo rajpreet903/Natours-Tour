@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const chalk = require('chalk');
 const dotenv = require('dotenv');
 
 process.on('uncaughtException', (err) => {
@@ -22,11 +21,11 @@ mongoose
     useNewUrlParser: true,
   })
   .then(() => console.log('DB connection successful!'))
-  .catch((err) => console.log(chalk.redBright(err)));
+  .catch((err) => console.log(err));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
-  console.log(`App running on port ${chalk.greenBright(port)}...`);
+  console.log(`App running on port ${port}...`);
 });
 
 process.on('unhandledRejection', (err) => {
