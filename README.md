@@ -4,7 +4,7 @@
 
 This full stack web application is specially designed for persons who love travelling and going on tour vacations.
 
-This app can be found at [here](https://tour-natours-app.herokuapp.com/).
+This app can be found [here](https://tour-natours-app.herokuapp.com/).
 
 ## Overview
 
