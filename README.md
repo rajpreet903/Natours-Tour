@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+Natours-Tour
 =======
 # Natours Application
 
